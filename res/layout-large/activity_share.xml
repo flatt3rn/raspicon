@@ -13,7 +13,8 @@
         <Button
             android:id="@+id/btn_pause"
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_height="400dp"
+            android:textSize="@dimen/Big"
             android:layout_weight="1"
             android:text="Pause" />
     </TableRow>
@@ -28,12 +29,14 @@
             android:id="@+id/btn_l"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="@dimen/Big"
             android:text="Go Back" />
 
         <Button
             android:id="@+id/btn_r"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="@dimen/Big"
             android:text="Go Forward" />
     </TableRow>
 
@@ -41,7 +44,7 @@
         android:id="@+id/tableRow3"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:layout_weight="1" >
 
         <Button
@@ -50,12 +53,14 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="30dp"
             android:layout_weight="1"
+            android:textSize="@dimen/Big"
             android:text="-" />
 
         <Button
             android:id="@+id/btn_sharelauter"
             style="?android:attr/buttonStyleSmall"
             android:layout_height="match_parent"
+            android:textSize="@dimen/Big"
             android:layout_marginLeft="50dp"
             android:layout_weight="1"
             android:text="+" />
@@ -71,9 +76,10 @@
             android:id="@+id/btn_exit"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="200dp"
             android:layout_weight="1"
-            android:text="Exit" />
+            android:text="Exit"
+            android:textSize="@dimen/Big" />
 
     </TableRow>
 
