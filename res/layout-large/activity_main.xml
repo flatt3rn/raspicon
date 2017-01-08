@@ -10,8 +10,8 @@
         android:id="@+id/tableRow1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:layout_marginTop="20dp"
         android:layout_weight="1" >
 
@@ -20,7 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:textSize="@dimen/Big"
             android:layout_weight="1" />
 
         <Button
@@ -28,19 +27,18 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:textSize="@dimen/Big"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Play"
-            android:textSize="@dimen/Big" />
-
+            android:text="Play" />
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:layout_marginTop="40dp"
         android:layout_weight="1" >
 
@@ -48,9 +46,9 @@
             android:id="@+id/btn_mainback"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/Big"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="0dp"
-            android:textSize="@dimen/Big"
             android:layout_weight="1"
             android:text="&lt;&lt;" />
 
@@ -58,17 +56,17 @@
             android:id="@+id/btn_mainpause"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/Big"
             android:layout_marginRight="0dp"
             android:layout_weight="1"
-            android:textSize="@dimen/Big"
             android:text="Pause" />
 
         <Button
             android:id="@+id/btn_mainforward"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:textSize="@dimen/Big"
+            android:layout_weight="1"
             android:text=">>" />
     </TableRow>
 
@@ -76,8 +74,8 @@
         android:id="@+id/tableRow3"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:layout_marginTop="40dp"
         android:layout_weight="1" >
 
@@ -91,8 +89,7 @@
             android:id="@+id/txt_streamnumber"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/Big"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:ems="10" >
@@ -104,41 +101,37 @@
             android:id="@+id/btn_playstream"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/Big"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Play"
-            android:textSize="@dimen/Big" />
+            android:text="Play" />
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow4"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
         android:layout_weight="1" >
-
-        <Spinner
-            android:id="@+id/sp_files"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
 
         <Button
             android:id="@+id/btn_filebrowser"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/Big"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:textSize="@dimen/Big"
-            android:text="Play" />
+            android:text="FileBrowser" />
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow5"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="70dp"
         android:layout_weight="1" >
 
@@ -146,9 +139,9 @@
             android:id="@+id/btn_shutdown"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/Big"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:textSize="@dimen/Big"
             android:layout_weight="1"
             android:text="Shutdown" />
 
@@ -156,9 +149,9 @@
             android:id="@+id/btn_restart"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/Big"
             android:layout_gravity="end"
             android:layout_marginLeft="20dp"
-            android:textSize="@dimen/Big"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:text="Reboot" />
@@ -196,6 +189,8 @@
         android:id="@+id/tableRow7"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="40dp"
         android:layout_weight="1" >
 
@@ -203,8 +198,8 @@
             android:id="@+id/sw_useyoutubedl"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
             android:textSize="@dimen/Big"
+            android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_weight="1"
             android:text="Use Youtube-DL" />
@@ -220,9 +215,9 @@
         <Button
             android:id="@+id/btn_closeall"
             android:layout_width="0dp"
+            android:textSize="@dimen/Big"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:textSize="@dimen/Big"
             android:layout_marginRight="50dp"
             android:layout_weight="1"
             android:text="Close Stream" />

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/btn_l"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_pause"
+        android:text="Go Back" />
+
+    <Button
+        android:id="@+id/btn_r"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_pause"
+        android:text="Go Forward" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/btn_shareleiser"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_l"
+        android:layout_marginTop="52dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btn_sharelauter"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_shareleiser"
+        android:layout_alignBottom="@+id/btn_shareleiser"
+        android:layout_alignParentRight="true"
+        android:text="+" />
+
+</RelativeLayout>
